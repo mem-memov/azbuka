@@ -1,8 +1,8 @@
 mod store;
 
 fn main() {
-
-    println!("Hello, world!");
 	store::write();
+    println!("Hello, world!");
+	
 
 }
