@@ -1,4 +1,6 @@
 [package]
+
 name = "azbuka"
 version = "0.1.0"
-authors = ["Novikov,  Alexander <Alexander.Novikov@t-platforms.ru>"]
+
+authors = ["Novikov,  Alexander <mem-memov@yandex.ru>"]
