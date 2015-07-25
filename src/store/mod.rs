@@ -1,9 +1,3 @@
-use std::io;
-use std::fs;
+mod container;
 
-pub fn write() -> io::Result<()> {
-
-	let mut f = try!(fs::File::create("foo.txt"));
-	Ok(())
-
-}
+pub use self::container::Container;

@@ -1,8 +1,8 @@
 mod store;
 
 fn main() {
-	store::write();
-    println!("Hello, world!");
-	
+
+	let file = store::Container::new("C:\\test.txt");
+	//println!("Hello, world!");
 
 }
