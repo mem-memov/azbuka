@@ -2,7 +2,8 @@ mod store;
 
 fn main() {
 
-	let file = store::Container::new("C:\\test.txt");
+	let container = store::Container::new("C:\\Users\\anna\\Documents\\rust\\test.txt");
+	container.append();
 	//println!("Hello, world!");
 
 }
